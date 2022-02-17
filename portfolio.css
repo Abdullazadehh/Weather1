@@ -1,0 +1,192 @@
+header a h1{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 90px;
+    background:#4aaaa5;
+    color: white;
+    width: 240px;
+    text-align: center;
+    margin-left: 290px;
+    padding:0 4px;
+}
+header a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+}
+header section{
+    margin-left: 463px;
+    line-height:84px;
+    word-spacing: 30px;
+}
+header section a{
+    font-size:18px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #999;
+}
+hr{
+    margin-top: -1px;
+    background-color:#999;
+    opacity: 0.4;
+
+}
+/* main */
+main{
+    background-image: url(./pictures/concrete_seamless.png);
+    display: flex;
+    margin-top: -7.5px;
+    padding-bottom: 40px;
+}
+.left{
+    background-color: white;
+    width: 650px;
+    height: 935px;
+    margin-left: 290px;
+    margin-top: 40px;
+    border: solid 1px #ddd;
+}
+main section h2{
+    font-size: 30px;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 30px; 
+}
+main hr{
+    color: #ddd;
+    margin-top: 30px;
+    width: 590px;
+    height: 0.01cm;
+    opacity: 0.4;
+}
+.first{
+    display: flex;
+}
+.two{
+    display: flex;
+    margin-top: 24px;
+}
+.three{
+    margin-top: 54px;
+}
+.first img{
+    width: 275px;
+    height: 205px;
+    opacity: 0.8;
+}
+.two img{
+    width: 275px;
+    height: 205px;
+    opacity: 0.8;
+}
+.three img{
+    width: 275px;
+    height: 205px;
+    opacity: 0.8;
+}
+.first h3{
+    font-size: 24px;
+    background-color: #4aaaa5;
+    padding: 18px 89px;
+    color: white;
+}
+.two h3{
+    font-size: 22px;
+    background-color: #4aaaa5;
+    padding: 15px 89px;
+    color: white;
+
+}
+.three h3{
+    font-size: 22px;
+    background-color: #4aaaa5;
+    padding: 15px 89px;
+    color: white;
+}
+.valentine{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.val-left{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.val-left h3{
+    margin-top: -71px;
+    position: absolute;
+    padding-right: 93px;
+
+}
+.valentine h3{
+    margin-top: -71px;
+    position: absolute;
+}
+.first .valentine h3{
+    padding: 18px 82.5px;
+}
+.val-left .tri{
+    padding: 18px 77px;
+    font-size:24px;
+}
+.valentine .tri{
+    padding: 18px 39.5px;
+    font-size:24px;
+}
+.three img{
+    margin-left: 30px;
+}
+.three h3{
+    padding: 18px 39.5px;
+    font-size:24px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 30px;
+}
+.right{
+    background-color: white;
+    width: 265px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border:solid 1px #ddd
+    }
+    .right h2{
+        font-size: 22px;
+        margin-top: 30px;
+        margin-left: 25px;
+    
+    }
+    .right hr{
+        margin-top: 20px;
+        width: 210px;
+        height: 0.01cm;
+        margin-left: 25px;
+        opacity: 0.2;
+    }
+    .right div{
+        margin-left: 25px;
+    }
+    .right div img{
+        width: 63px;
+        margin-top: 15px;
+        margin-left: 1px;
+    }
+    .right div img:hover{
+        cursor: pointer;
+    }
+/* footor */
+footer{
+    border-top: #4aaaa5 8px solid;
+    background-color: #666666;
+}
+footer h6{
+    color:#cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 38px;
+    padding-bottom: 42px;
+}
